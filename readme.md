@@ -3,7 +3,7 @@
 + Production URL: <http://p4.garyhost.me>
 
 ## Feature summary
-* This website is a photo organizer and EXIF-data extractor designed to look similar to traditional 35mm contact 
+This website is a photo organizer and EXIF-data extractor designed to look similar to traditional 35mm contact 
 sheets. I tailored it to support my photography, as I am often uncomfortable with the slow and bloated software that 
 exists. 
 
@@ -33,7 +33,7 @@ Confirmation](https://stackoverflow.com/questions/32984859/delete-confirmation-i
 *N/A that I know of*
 
 ## Notes for instructor
-*I consulted [tutsplus](https://code.tutsplus.com/tutorials/how-to-register-use-laravel-service-providers--cms-28966) 
+I consulted [tutsplus](https://code.tutsplus.com/tutorials/how-to-register-use-laravel-service-providers--cms-28966) 
 again to explore setting up services to remove some logic code from my controller file, but I was getting an 
 inexplicable error about the service not being found. Honestly, I found this aspect of Laravel a bit unwieldly. As I 
 was finishing the project, I saw you had posted some guidance on this, but I saw that you said it wasn't required. In 
