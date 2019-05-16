@@ -55,4 +55,4 @@ any case, I extracted some of the logic code into the controller class so that t
 out of control. There are a lot of additional features that I could have added for such an ambitious project, but I 
 tried to do enough to distinguish from foobooks and the standard catalog idea. For the seeders for files, I wasn't 
 able to transition that to the production website in an easy way to demonstrate because the filenames were determined 
-on the fly and the EXIF data was a bit too long. I was able to test by uploading manually, but creating proper seeders might have been possible if I set established filenames.
+on the fly and the EXIF data was a bit too long. I was able to test by uploading manually, but creating proper seeders might have been possible if I set established filenames. I also realized late when testing the EXIF aspect with images from different cameras that a lot of cameras don't store the F-stop value (0x829d), and only the aperture value (0x9202), which another calculation needs to be performed on to get a standard F-stop. This means that some of the sample images don't have a F-stop extracted, but users can enter that manually for now if they want.
