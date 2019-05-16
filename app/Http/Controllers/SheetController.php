@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use App\Sheet;
 use App\Image;
 
+use Illuminate\Support\Facades\DB;
+
+use App\User;
+
 use Illuminate\Http\Request;
 
 class SheetController extends Controller

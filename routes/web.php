@@ -20,9 +20,7 @@ Route::post('/sheets/upload', 'UploadController@uploadSubmit');
 
 Route::get('/images/{id}', 'ImageController@show');
 Route::get('/images/{id}/edit', 'ImageController@edit');
-
 Route::put('/images/{id}', 'ImageController@update');
-
 Route::delete('/images/{id}', 'ImageController@delete');
 
 Auth::routes();
