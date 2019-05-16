@@ -12,9 +12,10 @@ class SheetsTableSeeder extends Seeder
     public function run()
     {
         $sheets = [
-            ['Nature', 1],
-            ['Yale', 2],
-            ['Bird', 2]
+            ['Birds', 1],
+            ['Sunsets', 1],
+            ['Cats', 2],
+            ['Frogs', 2]
         ];
 
         $count = count($sheets);
