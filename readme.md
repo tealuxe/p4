@@ -35,10 +35,12 @@ Confirmation](https://stackoverflow.com/questions/32984859/delete-confirmation-i
 
 ## Notes for instructor
 I consulted [tutsplus](https://code.tutsplus.com/tutorials/how-to-register-use-laravel-service-providers--cms-28966) 
-again to explore setting up services to remove some logic code from my controller file, but I was getting an 
+again to explore setting up services to remove some logic code from my Upload controller file, but I was getting an 
 inexplicable error about the service not being found. Honestly, I found this aspect of Laravel a bit unwieldly. As I 
-was finishing the project, I saw you had posted some guidance on this, but I saw that you said it wasn't required. In 
-any case, I extracted some of the logic code into the controller class so that the single key upload method was not 
+was finishing the project, I saw you had posted some guidance on this, but I saw that you said this aspect wasn't 
+required. In 
+any case, I extracted some of the logic code into the controller class so that the core upload controller method was 
+not 
 out of control. There are a lot of additional features that I could have added for such an ambitious project, but I 
 tried to do enough to distinguish from foobooks and the standard catalog idea.
 
