@@ -22,7 +22,8 @@ In addition to the migrations and password tables, my application has 3 tables i
 + There's a one-to-many relationship between `sheets` and `images`.
 
 ## Outside resources
-I used the library [Intervention Image](http://image.intervention.io/) for image resizing, reading, and EXIF 
+I used Bootstrap for CSS. I used the library [Intervention Image](http://image.intervention.io/) for image resizing, 
+reading, and EXIF 
 extraction. I adapted the built-in Laravel login and password system. I used [this 
 page](https://www.media.mit.edu/pia/Research/deepview/exif.html) at the MIT media lab to understand the EXIF format. 
 I used [this tutorial](https://laraveldaily.com/upload-multiple-files-laravel-5-4/) from Laravel Daily as a starting 
