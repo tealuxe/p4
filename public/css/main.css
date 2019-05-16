@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img.contact {
+    padding-right: 8.333px;
+    padding-left: 8.333px;
+    padding-top: 33.333px;
+    padding-down: 33.333px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.right {
+    text-align: right;
+}
+
+div.center {
+    text-align: center;
+}
+
+
+div.alert {
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
+
+div.card {
+    color: black;
+}
