@@ -55,5 +55,4 @@ any case, I extracted some of the logic code into the controller class so that t
 out of control. There are a lot of additional features that I could have added for such an ambitious project, but I 
 tried to do enough to distinguish from foobooks and the standard catalog idea. For the seeders for files, I wasn't 
 able to transition that to the production website in an easy way to demonstrate because the filenames were determined 
-on the fly and the EXIF data was a bit too long. I was able to test by uploading manually, but this might be possible 
-if I manually set the filenames.
+on the fly and the EXIF data was a bit too long. I was able to test by uploading manually, but creating proper seeders might have been possible if I set established filenames.
